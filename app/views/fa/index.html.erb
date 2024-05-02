@@ -1,0 +1,49 @@
+FA list here
+
+<table class="table" border="1" >
+  <tr>
+    <th>
+      Employee ID
+    </th>
+
+    <th>
+      First name
+    </th>
+
+    <th>
+      Last name
+    </th>
+
+    <th>
+      Email
+    </th>
+
+    <th>
+      Base
+    </th>
+  </tr>
+
+  <% @fas.each do |fa| %>
+    <tr>
+      <td>
+        <%= fa.emp_id %>
+      </td>
+
+      <td>
+        <%= fa.first_name %>
+      </td>
+
+      <td>
+        <%= fa.last_name %>
+      </td>
+
+      <td>
+        <%= fa.email %>
+      </td>
+
+         <td>
+        <%= fa.base %>
+      </td>
+    </tr>
+  <% end %>
+</table>
