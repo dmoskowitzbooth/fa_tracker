@@ -26,7 +26,9 @@ FA list here
   <% @fas.each do |fa| %>
     <tr>
       <td>
-        <%= fa.emp_id %>
+        <a href="/fas/<%= fa.emp_id %>">
+          <%= fa.emp_id %>
+        </a> 
       </td>
 
       <td>

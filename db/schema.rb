@@ -10,8 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_05_02_195532) do
-  create_table "flight_attendants", force: :cascade do |t|
+ActiveRecord::Schema[7.0].define(version: 2024_05_02_203418) do
+  create_table "flightattendants", force: :cascade do |t|
     t.integer "emp_id"
     t.string "first_name"
     t.string "last_name"
